@@ -13,7 +13,7 @@ connect = os.popen("adb connect "+device).read()
 #print(connect)
 
 # gradle build apk and install apk
-os.system("gradlew clean installDebug ")
+os.system("./gradlew clean installDebug ")
 
 #testing and collecting logcat
 
